@@ -1,0 +1,75 @@
+### Save City 1
+POST http://localhost:8080/individuals/api/city/save
+Content-Type: application/json
+
+{
+  "name": "Moscow"
+}
+
+### Save City 1
+POST http://localhost:8080/individuals/api/city/save
+Content-Type: application/json
+
+{
+  "name": "New-York"
+}
+
+### Get City
+POST http://localhost:8080/individuals/api/city/find
+Content-Type: application/json
+
+{
+  "name": "Moscow"
+}
+
+### Get cities
+POST http://localhost:8080/individuals/api/city/find/all
+Content-Type: application/json
+
+### Save woman 1
+POST http://localhost:8080/individuals/api/woman/save
+Content-Type: application/json
+
+{
+  "name": "Veronika",
+  "age": 25,
+  "phoneNumber": "12345"
+}
+
+### Save woman 2
+POST http://localhost:8080/individuals/api/woman/save
+Content-Type: application/json
+
+{
+  "name": "Olga",
+  "age": 23,
+  "description": "From Ukraine",
+  "phoneNumber": "12346"
+}
+
+### Save woman 3
+POST http://localhost:8080/individuals/api/woman/save
+Content-Type: application/json
+
+{
+  "name": "Olga",
+  "age": 25,
+  "description": "From Ukraine",
+  "phoneNumber": "12348"
+}
+
+### Get woman by name
+POST http://localhost:8080/individuals/api/woman/find/name
+Content-Type: application/json
+
+{
+  "name": "Olga"
+}
+
+### Get woman by age
+POST http://localhost:8080/individuals/api/woman/find/age
+Content-Type: application/json
+
+{
+  "age": 25
+}
